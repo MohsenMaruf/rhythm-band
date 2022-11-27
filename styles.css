@@ -1,0 +1,191 @@
+	.div1{
+		background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(resources/home.jpg);
+		background-size: cover;
+		background-attachment: scroll;
+	}
+
+	.div2{
+		background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(resources/home.jpg);
+		background-size: cover;
+		background-attachment: scroll;
+	}
+
+	.navbar-nav .nav-item a{
+		color: white;
+		font-size: 18px;
+	}
+
+	.nav .nav-item a{
+		color: gray;
+	}
+
+	.nav{
+		padding-bottom: 3%;
+	}
+
+	.nav .nav-item a:hover{
+		color: #ec9d2d;
+	}
+	.nav-item a:hover{
+		color: #f0ad4e;
+	}
+
+	.card1{
+		box-shadow: -2px -2px 5px rgba(0, 0, 0, 0.3), 2px 2px 5px rgba(0, 0, 0, 0.3) ;
+		box-sizing: border-box;
+		max-width: 330px;
+		transition-duration: 500ms;
+		transition-timing-function: ease-in-out;
+	}
+	.card1:hover{
+		box-shadow: -3px -3px 6px rgba(240, 172, 78, 0.5), 3px 3px 6px rgba(240, 172, 78, 0.5) ;
+	}
+
+	.name{
+		position: relative;
+	}
+
+	.price{
+		position: absolute;
+		top: -20%;
+		left: 30%;
+		right: 30%;
+	}
+
+	.name h4, h1{
+		font-family: 'Cormorant Garamond', serif;
+	}
+
+	.band span{
+		border-bottom: 2px solid #f0ad4e;
+	}
+
+	.artist{
+		background-color: white;
+		box-shadow: -2px -2px 5px rgba(0, 0, 0, 0.3), 2px 2px 5px rgba(0, 0, 0, 0.3);
+		transition-property: background;
+		transition-duration: 500ms;
+		transition-delay: 30ms;
+		transition-timing-function: ease-in-out;
+	}
+
+	.artist:hover{
+		background-color: black;
+	}
+
+	.artist:hover .wrap-artist .card-body h5{
+		color: white;
+	}
+
+	.b-ticket{
+		background-color: black;
+		color: white;
+	}
+
+	.b-ticket-n{
+		color: white;
+		background-color: rgb(241, 160, 9);
+	}
+
+	.b-ticket-n:hover{
+		color: #f0ad4e;
+		border: #f0ad4e 1px solid;
+	}
+
+	.b-ticket:hover{
+		background-color: #f0ad4e;
+		color: white;
+	}
+
+	.tickets{
+		box-shadow: -2px -2px 5px rgba(0, 0, 0, 0.3), 2px 2px 5px rgba(0, 0, 0, 0.3);
+		transition-duration: 300ms;
+		transition-timing-function: ease-in-out;
+	}
+
+	.tickets:hover{
+		box-shadow: -3px -3px 6px rgba(240, 172, 78, 0.5), 3px 3px 6px rgba(240, 172, 78, 0.5);
+	}
+
+	.img-wrap{
+		position: relative;
+		overflow: hidden;
+	}
+
+	.overlay{
+		position: absolute;
+		top: 0%;
+		height: 100%;
+		background-color: rgba(0, 0, 0, 0.6);
+		opacity: 0;
+		transition-delay: 100ms;
+		transition-duration: 500ms;
+		transition-timing-function: ease-in-out;
+	}
+
+	.overlay:hover{
+		opacity: 1;
+	}
+
+	.buttons:hover{
+		color: #f0ad4e;
+	}
+
+	.news{
+		box-shadow: -2px -2px 5px rgba(0, 0, 0, 0.3), 2px 2px 5px rgba(0, 0, 0, 0.3);
+		transition-duration: 500ms;
+		transition-timing-function: ease-in-out;
+		transition-delay: 30ms;
+	}
+
+	.news-img{
+		position: relative;
+	}
+
+	.news-date{
+		position: absolute;
+		top: 0%;
+		color: rgb(99, 99, 99);
+		background-color: white;
+		width: 31%;
+		height: 31%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		transition-duration: 500ms;
+		transition-timing-function: ease-in-out;
+		transition-delay: 30ms;
+	}
+
+	.news:hover{
+		box-shadow: -3px -3px 6px rgba(240, 172, 78, 0.5), 3px 3px 6px rgba(240, 172, 78, 0.5);
+	}
+
+	.news:hover .news-date{
+		background-color: #ec9d2d;
+		color: white;
+	}
+
+	.purchase{
+		font-size: 18px;
+	}
+
+	.purchase:hover{
+		color: #f0ad4e;
+		border: #f0ad4e 1px solid;
+	}
+
+	.list-inline-item a i{
+		background-color: white;
+		width: 50px;
+		height: 50px;
+		border-radius: 50%;
+		color: gray;
+		transition-timing-function: ease-in-out;
+		transition-duration: 500ms;
+	}
+
+	.list-inline-item:hover i{
+		background-color: #ec9d2d;
+		color: #ffffff;
+	}
